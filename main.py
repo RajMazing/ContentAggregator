@@ -27,4 +27,15 @@ print("The Newspaper Scrape Project \nBuilt to give the user access to articles 
       "\nCan also detect negative or positive language in text.")
 print()
 name = input("Enter your name to get started!:")
+print("Welcome " + name + "!\nYou will now see the latest news!")
+print("Extracting article hyperlinks...")
+
+# sleep() delays runtime
+# the runtime is delayed by 2 seconds.
+
+time.sleep(3)
+
+print("Retrieving article summaries...")
+print()
+time.sleep(3)
 
