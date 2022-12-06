@@ -39,3 +39,6 @@ print("Retrieving article summaries...")
 print()
 time.sleep(3)
 
+content_string = get_content_string(get_url)
+start_indices, end_indices = find_occurrences(content_string)
+url_list = get_all_urls(start_indices, end_indices, content_string)
